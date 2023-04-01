@@ -1,0 +1,93 @@
+.navbar {
+    width: 1140px;
+    height: 73px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-top: 62px;
+}
+
+.nav__left {
+    display: flex;
+}
+
+.nav__right {
+    display: flex;
+}
+
+.nav__container {
+    display: flex;
+}
+
+
+.nav__links {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 30px;
+
+    /* light text */
+
+    color: #E4E5EA;
+}
+
+.nav__links:first-child {
+    margin-left: 0;
+}
+
+.nav__container {
+    display: flex;
+}
+
+.nav__contact {
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.logo__container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+.nav__subtitle {
+    width: 165px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #E4E5EA;
+}
+
+#logo__logo {
+    width: 35px;
+    height: 24px;
+    margin-left: 0;
+}
+
+#logo__name {
+    width: 95px;
+    height: 14px;
+}
+
+#num {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+}

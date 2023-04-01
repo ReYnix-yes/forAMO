@@ -1,0 +1,192 @@
+@media screen and (max-width: 1040px) {
+    .home__container {
+        width: 100%;
+        overflow: hidden;
+    }
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #0E1014;
+        margin: 0;
+        z-index: 11;
+        align-items: center;
+    }
+
+    .nav__container {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .nav__links {
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .nav__contact {
+        display: none;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    .right__title {
+        text-align: left;
+    }
+
+    .left__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+
+        /* light text */
+
+        color: #E4E5EA;
+        float: left;
+        text-align: left;
+    }
+
+    .right__sidebar {
+        display: none;
+    }
+
+    .adap__right {
+        display: block;
+    }
+
+    #adap__right__title {
+        float: left;
+    }
+
+    .adap__container {
+        display: grid;
+        float: left;
+        grid-gap: 14px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .adap__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        /* identical to box height */
+
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        /* light text */
+
+        color: #E4E5EA;
+        margin-left: 20px;
+    }
+
+    .gradient-strip {
+        position: relative;
+        /* make the parent element positioned */
+        padding-top: 10px;
+        /* add some top padding for the strip */
+    }
+
+    .gradient-strip::before {
+        content: "";
+        /* add content to the pseudo-element */
+        position: absolute;
+        width: 10px;
+        height: 1px;
+        /* change the height to match the desired strip width */
+        left: 0px;
+        top: 18px;
+        background: linear-gradient(to right, #FCB045, #FD1D1D);
+    }
+
+    .home__container {
+        margin-bottom: 65px;
+    }
+
+    .footer {
+        background-color: #0E1014;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__item {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .contacts {
+        position: static;
+        float: left;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .privacy {
+        position: static;
+        text-align: left;
+    }
+
+    .privacy__text {
+        text-align: left;
+    }
+
+    .circle2 {
+        position: absolute;
+        width: 43px;
+        height: 43px;
+        left: 29px;
+        top: 532px;
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%)
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        ;
+        box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+        backdrop-filter: blur(2px);
+        z-index: -1;
+    }
+
+    .circle3 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 296px;
+        top: 206px;
+        z-index: -1;
+
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%)
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        ;
+        box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+        filter: blur(5px);
+        backdrop-filter: blur(2px);
+    }
+
+    .light {
+        /* purple light */
+
+        position: absolute;
+        width: 259px;
+        height: 259px;
+        left: 258px;
+        top: 107px;
+
+        background: #833AB4;
+        opacity: 0.5;
+        filter: blur(196px);
+    }
+    .right__title {
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    .footer__item:first-child {
+        margin-top: 41px;
+    }
+}
